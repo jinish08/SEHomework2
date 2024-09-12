@@ -11,7 +11,7 @@ on:
 jobs:
   autopep8:
     runs-on: ubuntu-latest
-    name: AutoPep8 Check
+    name: AutoPep8 Formatting
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -29,7 +29,7 @@ jobs:
 
   pyflakes:
     runs-on: ubuntu-latest
-    name: Pyflakes Check
+    name: Pyflakes Linting
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -47,7 +47,7 @@ jobs:
 
   pyright:
     runs-on: ubuntu-latest
-    name: Pyright Check
+    name: Pyright Type Checking
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -65,7 +65,7 @@ jobs:
 
   tests:
     runs-on: ubuntu-latest
-    name: Run Tests
+    name: Pytest Unit Tests
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
