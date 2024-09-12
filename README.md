@@ -6,6 +6,7 @@
 ![AutoPep8 Formatting](https://github.com/jinish08/SEHomework2/actions/workflows/ci.yml/badge.svg?branch=main&job=autopep8)
 ![Pyflakes Linting](https://github.com/jinish08/SEHomework2/actions/workflows/ci.yml/badge.svg?branch=main&job=pyflakes)
 ![Pyright Type Checking](https://github.com/jinish08/SEHomework2/actions/workflows/ci.yml/badge.svg?branch=main&job=pyright)
+![Pylint Linting](https://github.com/jinish08/SEHomework2/actions/workflows/ci.yml/badge.svg?branch=main&job=pylint)
 ![Pytest Unit Tests](https://github.com/jinish08/SEHomework2/actions/workflows/ci.yml/badge.svg?branch=main&job=tests)
 
 This project runs the following static analysis and test tools on every commit:
