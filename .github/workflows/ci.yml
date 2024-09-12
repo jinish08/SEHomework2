@@ -43,5 +43,4 @@ jobs:
 
       - name: Run Pytest
         run: |
-          cd tests/
           pytest test_hw2_debugging.py  # Add this to run the test cases
