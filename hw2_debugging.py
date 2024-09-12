@@ -32,4 +32,7 @@ def recombine(leftArr, rightArr):
 
 
 arr = rand.random_array([None] * 20)
+print("ip array:", arr)
 arr_out = mergeSort(arr)
+print("op array:", arr_out)
+print(arr_out)
